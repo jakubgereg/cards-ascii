@@ -1,0 +1,24 @@
+{
+  "name": "cards-ascii",
+  "version": "1.0.0",
+  "description": "Cards representation in Ascii",
+  "main": "index.js",
+  "author": "Jakub Gereg",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wramp/cards-ascii.git"
+  },
+  "keywords": [
+    "cards",
+    "ascii",
+    "unicode"
+  ],
+  "bugs": {
+    "url": "https://github.com/wramp/cards-ascii/issues"
+  },
+  "homepage": "https://github.com/wramp/cards-ascii#readme",
+  "dependencies": {
+    "cards-unicode": "^1.0.1"
+  }
+}
