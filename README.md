@@ -9,7 +9,7 @@ yarn add cards-ascii
 
 or
 
-npm install  cards-ascii
+npm install cards-ascii
 ```
 
 ## Example
