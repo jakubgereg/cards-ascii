@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-cards-unicode@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/cards-unicode/-/cards-unicode-1.2.0.tgz#24a2d1b654fef290ee86e7b089476ddd00f1eccc"
-  integrity sha512-D3iaBD7fF16kpOenqaslo4Tqnjox13/vM155O6Eh4xMDD4qFHcEfcZ0P65dYsHX8jmKASpsda903dRTzGp41uw==
+cards-unicode@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/cards-unicode/-/cards-unicode-1.2.1.tgz#6d23d1a6e6874f690162a4019cccfc5d5e6aa635"
+  integrity sha512-s/vCBpQcAVlobL+nCZ4+R2UcSyq5+ph4e6ZgflWPyIXUtvV85myLEKXmEH8G48wTPQCmb+QUBJuu4AAdXEOmjQ==
