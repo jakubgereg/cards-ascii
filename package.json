@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/wramp/cards-ascii#readme",
   "dependencies": {
-    "cards-unicode": "^1.0.1"
+    "cards-unicode": "^1.2.0"
   }
 }
