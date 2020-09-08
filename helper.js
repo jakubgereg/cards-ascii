@@ -6,21 +6,26 @@ function spaces(num = 1, spaceSymbol = " ") {
   return spaceSymbol.repeat(num);
 }
 
-function getSides(width = 11, leftCorner = "┌", rightCorner = "┐") {
+function getSides(width, leftCorner, rightCorner) {
   return `${leftCorner}${spaces(width - 2, "─")}${rightCorner}`;
 }
 
 function cardManufacture(number, suitSymbol, width = 11) {
+  if (width < 3) {
+    throw "Minimum card width needs to be 3!";
+  }
   let widthNoBorders = width - 2;
   let widthHalf = Math.floor(widthNoBorders / 2);
 
-  return `${getSides(width)}
+  return `${getSides(width, "┌", "┐")}
 |${number}${
     number > 9 ? spaces(widthNoBorders - 2) : spaces(widthNoBorders - 1)
   }│
 ${border(spaces(widthNoBorders))}
 ${border(spaces(widthNoBorders))}
-${border(spaces(widthHalf) + suitSymbol + spaces(widthHalf))}
+${border(
+  spaces(widthHalf) + suitSymbol + spaces(width % 2 ? widthHalf : widthHalf - 1)
+)}
 ${border(spaces(widthNoBorders))}
 ${border(spaces(widthNoBorders))}
 │${
