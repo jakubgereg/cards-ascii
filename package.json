@@ -1,6 +1,6 @@
 {
   "name": "cards-ascii",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Cards representation in Ascii",
   "main": "index.js",
   "author": "Jakub Gereg",
