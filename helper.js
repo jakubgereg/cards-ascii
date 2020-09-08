@@ -11,8 +11,8 @@ function getSides(width, leftCorner, rightCorner) {
 }
 
 function cardManufacture(number, suitSymbol, width = 11) {
-  if (width < 3) {
-    throw "Minimum card width needs to be 3!";
+  if (width < 4) {
+    throw "Minimum card width needs to be 4!";
   }
   let widthNoBorders = width - 2;
   let widthHalf = Math.floor(widthNoBorders / 2);
